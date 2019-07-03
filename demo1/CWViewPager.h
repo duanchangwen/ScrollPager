@@ -10,8 +10,15 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CWViewPager : UIView
+@protocol CWViewPagerDelegate <NSObject>
+- (void)pageSelectIndex:(NSInteger)index;
+@end
 
+@interface CWViewPager : UIView
+@property(nonatomic,weak) id<CWViewPagerDelegate> delegates;
+
+- (void)setDefaultIndex:(NSInteger)index;
+- (void)setTitleArray:(NSMutableArray *)titleArray controlerArray:(NSMutableArray *)cvArray;
 @end
 
 NS_ASSUME_NONNULL_END

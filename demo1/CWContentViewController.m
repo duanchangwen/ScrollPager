@@ -7,6 +7,8 @@
 //
 
 #import "CWContentViewController.h"
+#define CWColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define CWRandomColor CWColor(arc4random_uniform(255),arc4random_uniform(255),arc4random_uniform(255))
 
 @interface CWContentViewController ()
 
@@ -17,6 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.view.backgroundColor = CWRandomColor;
 }
 
 /*

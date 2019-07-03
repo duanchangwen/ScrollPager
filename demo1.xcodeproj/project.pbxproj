@@ -14,6 +14,10 @@
 		1B02789722C37266000B0416 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B02789522C37266000B0416 /* LaunchScreen.storyboard */; };
 		1B02789A22C37266000B0416 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B02789922C37266000B0416 /* main.m */; };
 		1B0278A422C37266000B0416 /* demo1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0278A322C37266000B0416 /* demo1Tests.m */; };
+		1B0278B322C37949000B0416 /* CWTopTitleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0278B222C37949000B0416 /* CWTopTitleScrollView.m */; };
+		1B0278B622C37968000B0416 /* CWContentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0278B522C37968000B0416 /* CWContentScrollView.m */; };
+		1B0278B922C37983000B0416 /* CWContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0278B822C37983000B0416 /* CWContentViewController.m */; };
+		1B0278BC22C384D9000B0416 /* CWViewPager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0278BB22C384D9000B0416 /* CWViewPager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,14 @@
 		1B02789F22C37266000B0416 /* demo1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demo1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B0278A322C37266000B0416 /* demo1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demo1Tests.m; sourceTree = "<group>"; };
 		1B0278A522C37266000B0416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B0278B122C37949000B0416 /* CWTopTitleScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWTopTitleScrollView.h; sourceTree = "<group>"; };
+		1B0278B222C37949000B0416 /* CWTopTitleScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWTopTitleScrollView.m; sourceTree = "<group>"; };
+		1B0278B422C37968000B0416 /* CWContentScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWContentScrollView.h; sourceTree = "<group>"; };
+		1B0278B522C37968000B0416 /* CWContentScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWContentScrollView.m; sourceTree = "<group>"; };
+		1B0278B722C37983000B0416 /* CWContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWContentViewController.h; sourceTree = "<group>"; };
+		1B0278B822C37983000B0416 /* CWContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWContentViewController.m; sourceTree = "<group>"; };
+		1B0278BA22C384D9000B0416 /* CWViewPager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWViewPager.h; sourceTree = "<group>"; };
+		1B0278BB22C384D9000B0416 /* CWViewPager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWViewPager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +97,14 @@
 				1B02788B22C37263000B0416 /* AppDelegate.m */,
 				1B02788D22C37263000B0416 /* ViewController.h */,
 				1B02788E22C37263000B0416 /* ViewController.m */,
+				1B0278BA22C384D9000B0416 /* CWViewPager.h */,
+				1B0278BB22C384D9000B0416 /* CWViewPager.m */,
+				1B0278B122C37949000B0416 /* CWTopTitleScrollView.h */,
+				1B0278B222C37949000B0416 /* CWTopTitleScrollView.m */,
+				1B0278B422C37968000B0416 /* CWContentScrollView.h */,
+				1B0278B522C37968000B0416 /* CWContentScrollView.m */,
+				1B0278B722C37983000B0416 /* CWContentViewController.h */,
+				1B0278B822C37983000B0416 /* CWContentViewController.m */,
 				1B02789022C37263000B0416 /* Main.storyboard */,
 				1B02789322C37266000B0416 /* Assets.xcassets */,
 				1B02789522C37266000B0416 /* LaunchScreen.storyboard */,
@@ -204,8 +224,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B02788F22C37263000B0416 /* ViewController.m in Sources */,
+				1B0278B922C37983000B0416 /* CWContentViewController.m in Sources */,
 				1B02789A22C37266000B0416 /* main.m in Sources */,
+				1B0278B322C37949000B0416 /* CWTopTitleScrollView.m in Sources */,
+				1B0278BC22C384D9000B0416 /* CWViewPager.m in Sources */,
 				1B02788C22C37263000B0416 /* AppDelegate.m in Sources */,
+				1B0278B622C37968000B0416 /* CWContentScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

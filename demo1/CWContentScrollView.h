@@ -10,8 +10,15 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CWContentScrollView : UIScrollView
+@protocol CWContentScrollViewDelegate <NSObject>
+- (void)scrollViewIsScrolling:(UIScrollView *)scrollView;
+- (void)pageScrollToIndex:(NSInteger)index;
+@end
 
+@interface CWContentScrollView : UIScrollView
+@property(nonatomic,weak) id<CWContentScrollViewDelegate> delegates;
+- (void)setControllerArray:(NSMutableArray *)cvA;
+- (void)scrollToIndex:(NSInteger)index;             //滑动到哪一个界面
 @end
 
 NS_ASSUME_NONNULL_END
